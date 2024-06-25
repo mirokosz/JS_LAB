@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', function () {
     let currentIndex = 0;
     let isPaused = false;
     let slideInterval;
-    let animationType = 'slide'; // 'slide' or 'fade'
+    let animationType = 'slide';
 
     function showSlide(index) {
         if (animationType === 'slide') {
